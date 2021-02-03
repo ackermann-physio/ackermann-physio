@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Image from 'next/image'
 
 
 export default function Home() {
@@ -20,13 +19,6 @@ export default function Home() {
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
-
-         <Image
-                src="/me.png"
-                alt="Picture of the author"
-                width={500}
-                height={500}
-              />
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
