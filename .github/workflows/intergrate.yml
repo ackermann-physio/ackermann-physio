@@ -24,6 +24,9 @@ jobs:
       - run: npm install
       - run: npm run build
         env:
+          CI: true
+      - run: npm run export
+        env:
             CI: true
 
       - name: Deploy 🚀
