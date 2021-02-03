@@ -1,0 +1,17 @@
+.main {
+  width: 108px;
+  border-right: 4px solid #CDB89E;
+}
+
+.main a {
+  display: block;
+  min-height: 2em;
+}
+
+.main a::before {
+  content: "»"
+}
+
+.main a.spaceBefore {
+  margin-top: 20px;
+}
