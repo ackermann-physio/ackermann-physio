@@ -28,6 +28,7 @@ jobs:
       - run: npm run export
         env:
             CI: true
+      - run: touch out/.nojekyll
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
@@ -36,9 +37,3 @@ jobs:
           BRANCH: public # The branch the action should deploy to.
           FOLDER: src/out # The folder the action should deploy.
           CLEAN: true # Automatically remove deleted files from the deploy branch
-
-      - name: Create .nojekyll file (Required to access the _next directory)
-        uses: "finnp/create-file-action@master"
-        env:
-          FILE_NAME: ".nojekyll"
-          FILE_DATA: ""
