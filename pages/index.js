@@ -1,6 +1,7 @@
 
 import Layout from '../components/layout'
 
+import banner from '../styles/banner.module.css'
 import content from '../styles/content.module.css'
 import util from '../styles/util.module.css'
 
@@ -9,55 +10,41 @@ export default function About() {
     <Layout>
       <h1>Ackermann & Team <br /> Privatpraxis für Osteopathie & Physiotherapie</h1>
 
-      <div className={content.wrapper}>
-        <div className={content.img}>
-          <img src="/img/physiotherapie_backermann2019-1.jpg" />
-        </div>
-        <div className={content.text}>
-          <h2>So können Sie uns erreichen</h2>
-          Ackermann & Team <br />
-          Privatpraxis für Osteopathie & Physiotherapie <br />
-          Inh. Britta Ackermann <br />
-          <br />
-          Rheinstraße 20 <br />
-          64283 Darmstadt <br />
-          <br />
-          <span className={util.bold}>
-            Tel. <a className={util.bold} href="tel:+496151293242">0 61 51 / 29 32 42</a> <br />
-          </span>
-          <br />
-          <a href="mailto:info@ackermann-physio.de">info@ackermann-physio.de</a>
-        </div>
+      <div className={banner.wrapper}>
+        <span className={util.bold}>
+          In der aktuellen Lage in Hessen bleiben alle Einrichtungen des Gesundheitswesens geöffnet. <br />
+        </span>
+        <br />
+        Bitte unterstützen Sie unsere Praxis bei den notwendigen hygienischen Maßnahmen<br />
+        <span className={util.bold}>
+          und verschieben Sie Ihre Termine, wenn Sie unter Erkältungssymptomen leiden!<br />
+        </span>
+        <br />
+        Falls Sie über 60 Jahre alt sind oder aufgrund von Vorerkrankungen ein erhöhtes Risiko haben, dann wägen Sie die Notwendigkeit einer Behandlung bitte ab oder besprechen Sie mit uns ein geeignetes Vorgehen. <br />
+        <br />
+        Wir freuen uns auf Ihren Besuch!<br />
+        <br />
+        Ihr Team der Physiotherapiepraxis Ackermann
       </div>
 
       <div className={content.wrapper}>
         <div className={content.text}>
-          <h2>Behandlungszeiten</h2>
-          <span className={util.bold}>
-            Osteopathie
-          </span>
+          Wir freuen uns über Ihren Besuch und stellen uns gerne bei Ihnen vor. <br />
           <br />
-          nach individueller Vereinbarung! <br />
+          Schauen Sie sich unser Therapieangebot an, betreten Sie unsere Praxisräume und verschaffen Sie sich einen ersten Eindruck über Ihre Therapeutinnen und deren Qualifikationen. <br />
           <br />
-          <span className={util.bold}>
-            Physiotherapie
-          </span>
-          <br />
-          Montag bis Freitag von 8.00 - 20.00 Uhr <br />
-          und nach individueller Vereinbarung! <br />
-          <br />
-          Hausbesuche sind möglich!
+          <div className={util.center}>
+            Rheinstraße 20 <br />
+            64283 Darmstadt <br />
+            <a href="tel:+496151293242">Tel. 0 61 51 / 29 32 42</a> <br />
+            e-Mail <a href="mailto:info@ackermann-physio.de">info@ackermann-physio.de</a> <br />
+          </div>
 
-          <h2>Noch Fragen?</h2>
-          Zwecks Terminvereinbarung bitten wir um Ihren Anruf unter <a href="tel:+496151293242">06151 / 29 32 42</a> oder Ihre e-Mail an <a href="mailto:info@ackermann-physio.de">info@ackermann-physio.de</a>. <br />
-          <br />
-          Da wir in erster Linie an und mit unseren Patienten arbeiten, haben Sie bitte Verständnis, wenn unser Anrufbeantworter Ihren Anruf entgegennimmt, während wir uns in einer Behandlung befinden. <br />
-          Wir rufen garantiert zurück! <br />
-          Auch auf Ihre e-Mails werden wir antworten, dies kann aber ein wenig dauern, wenn gerade viel los ist. <br />
-          Eilige Anfragen daher lieber per Anrufbeantworter. <br />
+          <h2 className={util.center}>Bei uns sind Sie in guten Händen!</h2>
         </div>
-        <div className={content.img}>
-          <img src="/img/physiotherapie_behandlungsraum.jpg" />
+        <div className={[content.img, content.large].join(' ')}>
+          <img src="/img/physiotherapie_darmstadt_team2_600.jpg" />
+          <span className={[content.subtitle, util.center].join(' ')}>Das Praxisteam</span>
         </div>
       </div>
 
