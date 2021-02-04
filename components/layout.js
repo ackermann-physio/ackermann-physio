@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Header from '../components/header'
 import Menu from '../components/menu'
 
@@ -17,9 +18,28 @@ export default function Button({ children, ...pageProps })  {
       <div className={styles.contentWrapper}>
         <Menu />
 
-        <main className={styles.main}>
-          {children}
-        </main>
+        <div className={styles.mainWrapper}>
+          <main className={styles.main}>
+            {children}
+          </main>
+          <footer className={styles.footer}>
+            <Link href="/impressum">
+              <a>Impressum</a>
+            </Link>
+            <span className={styles.spacer} />
+            <Link href="/datenschutz">
+              <a>Datenschutzhinweis</a>
+            </Link>
+            <br />
+            © Britta Ackermann
+            <span className={styles.spacer} />
+            Ackermann & Team - Privatpraxis für Osteopathie & Physiotherapie
+            <span className={styles.spacer} />
+            <address>Rheinstraße 20, 64283 Darmstadt</address>
+            <span className={styles.spacer} />
+            Tel. <a href="tel:+496151293242">06151/293242</a>
+          </footer>
+        </div>
       </div>
     </div>
   )
