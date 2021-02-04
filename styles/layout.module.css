@@ -9,6 +9,10 @@
   padding: 20px;
 }
 
+.contentWrapper img {
+  border: 1px solid #CDB89E;
+}
+
 .contentWrapper {
   display: flex;
 }
