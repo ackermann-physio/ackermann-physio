@@ -51,6 +51,15 @@
   }
 }
 
+/* Small Images */
+.wrapper.smallImage .text {
+  flex-basis: 75%;
+}
+.wrapper.smallImage .img {
+  flex-basis: 25%;
+}
+
+/* Wrap images below text on small pages */
 @media (max-width: 500px) {
   .wrapper {
     flex-direction: column;
