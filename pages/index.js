@@ -1,3 +1,4 @@
+import Link from 'next/link'
 
 import Layout from '../components/layout'
 
@@ -15,7 +16,8 @@ export default function About() {
           In der aktuellen Lage in Hessen bleiben alle Einrichtungen des Gesundheitswesens geöffnet. <br />
         </span>
         <br />
-        Bitte unterstützen Sie unsere Praxis bei den notwendigen hygienischen Maßnahmen<br />
+        Bitte unterstützen Sie unsere Praxis bei den <Link href="/hygiene"><a>notwendigen hygienischen Maßnahmen</a></Link>
+        <br />
         <span className={util.bold}>
           und verschieben Sie Ihre Termine, wenn Sie unter Erkältungssymptomen leiden!<br />
         </span>
