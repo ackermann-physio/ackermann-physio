@@ -4,16 +4,13 @@
 }
 
 .text {
-  flex-grow: 1;
+  flex-basis: 60%;
 }
 
 .img {
-  display: block;
-  max-width: 40%;
+  flex-basis: 40%;
 }
-.img.large {
-  min-width: 60%;
-}
+
 .img img {
   max-width: 100%;
   max-height: 100%;
@@ -38,9 +35,19 @@
   margin-top: 0;
 }
 
+/* Large Images */
+.wrapper.largeImage .text {
+  flex-basis: 40%;
+}
+.wrapper.largeImage .img {
+  flex-basis: 60%;
+}
 @media (max-width: 750px) {
-  .img.large {
-    min-width: 40%;
+  .wrapper.largeImage .text {
+    flex-basis: 50%;
+  }
+  .wrapper.largeImage .img {
+    flex-basis: 50%;
   }
 }
 

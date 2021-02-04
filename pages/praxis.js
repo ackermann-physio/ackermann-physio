@@ -7,7 +7,7 @@ import util from '../styles/util.module.css'
 export default function About() {
   return (
     <Layout>
-      <h1>Praxis</h1>
+      <h1>Die Praxis</h1>
 
       <div className={content.wrapper}>
         <div className={content.img}>

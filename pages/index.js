@@ -27,7 +27,7 @@ export default function About() {
         Ihr Team der Physiotherapiepraxis Ackermann
       </div>
 
-      <div className={content.wrapper}>
+      <div className={[content.wrapper, content.largeImage].join(' ')}>
         <div className={content.text}>
           Wir freuen uns über Ihren Besuch und stellen uns gerne bei Ihnen vor. <br />
           <br />
@@ -42,7 +42,7 @@ export default function About() {
 
           <h2 className={util.center}>Bei uns sind Sie in guten Händen!</h2>
         </div>
-        <div className={[content.img, content.large].join(' ')}>
+        <div className={content.img}>
           <img src="/img/physiotherapie_darmstadt_team2_600.jpg" />
           <span className={[content.subtitle, util.center].join(' ')}>Das Praxisteam</span>
         </div>
