@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 500px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .img {
+    min-width: 100%;
+    margin-top: 20px;
+    order: 1;
+  }
+}
+
+.text {
+  flex-grow: 1;
+}
+
+.img {
+  display: block;
+  max-width: 40%;
+}
+.img img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.wrapper > :first-child {
+  margin-right: 20px;
+}
+
+.text h2 {
+  margin-top: 20px;
+}
+.text h2:first-child {
+  margin-top: 0;
+}

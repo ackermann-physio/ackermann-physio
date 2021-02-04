@@ -18,13 +18,20 @@ a {
   box-sizing: border-box;
 }
 
-h1 {
+h1, h2, h3, h4 {
   color: #47A0CF;
-  font-size: 2em;
   margin-top: 0;
 }
 
+h1 {
+  font-size: 2em;
+}
+
 h2 {
-  color: #47A0CF;
   font-size: 1.5em;
+}
+
+/* Do not wrap telephone numbers */
+a[href^="tel:"] {
+  white-space:nowrap;
 }

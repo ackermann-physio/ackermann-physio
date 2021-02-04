@@ -1,77 +1,71 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import Button from '../components/button'
+
 import Layout from '../components/layout'
 
-import styles from '../styles/Home.module.css'
+import content from '../styles/content.module.css'
+import util from '../styles/util.module.css'
 
-export default function Home() {
+export default function About() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <Layout>
+      <h1>Ackermann & Team <br /> Privatpraxis für Osteopathie & Physiotherapie</h1>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <Button>Wo ist das</Button>
-
-        <p>
-        <Link href="/about">
-                <a>About</a>
-              </Link>
-              </p>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <div className={content.wrapper}>
+        <div className={content.img}>
+          <img src="/img/physiotherapie_backermann2019-1.jpg" />
         </div>
-      </main>
+        <div className={content.text}>
+          <h2>So können Sie uns erreichen</h2>
+          Ackermann & Team <br />
+          Privatpraxis für Osteopathie & Physiotherapie <br />
+          Inh. Britta Ackermann <br />
+          <br />
+          Rheinstraße 20 <br />
+          64283 Darmstadt <br />
+          <br />
+          <span className={util.bold}>
+            Tel. <a className={util.bold} href="tel:+496151293242">0 61 51 / 29 32 42</a> <br />
+          </span>
+          <br />
+          <a href="mailto:info@ackermann-physio.de">info@ackermann-physio.de</a>
+        </div>
+      </div>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+      <div className={content.wrapper}>
+        <div className={content.text}>
+          <h2>Behandlungszeiten</h2>
+          <span className={util.bold}>
+            Osteopathie
+          </span>
+          <br />
+          nach individueller Vereinbarung! <br />
+          <br />
+          <span className={util.bold}>
+            Physiotherapie
+          </span>
+          <br />
+          Montag bis Freitag von 8.00 - 20.00 Uhr <br />
+          und nach individueller Vereinbarung! <br />
+          <br />
+          Hausbesuche sind möglich!
+
+          <h2>Noch Fragen?</h2>
+          Zwecks Terminvereinbarung bitten wir um Ihren Anruf unter <a href="tel:+496151293242">06151 / 29 32 42</a> oder Ihre e-Mail an <a href="mailto:info@ackermann-physio.de">info@ackermann-physio.de</a>. <br />
+          <br />
+          Da wir in erster Linie an und mit unseren Patienten arbeiten, haben Sie bitte Verständnis, wenn unser Anrufbeantworter Ihren Anruf entgegennimmt, während wir uns in einer Behandlung befinden. <br />
+          Wir rufen garantiert zurück! <br />
+          Auch auf Ihre e-Mails werden wir antworten, dies kann aber ein wenig dauern, wenn gerade viel los ist. <br />
+          Eilige Anfragen daher lieber per Anrufbeantworter. <br />
+        </div>
+        <div className={content.img}>
+          <img src="/img/physiotherapie_behandlungsraum.jpg" />
+        </div>
+      </div>
+
+      <div className={content.wrapper}>
+        <div className={content.text}>
+        </div>
+      </div>
+
+    </Layout>
   )
 }

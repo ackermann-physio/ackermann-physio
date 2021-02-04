@@ -16,4 +16,17 @@
     position: absolute;
     right: 0;
     bottom: 5px;
+    text-align: right;
+}
+
+
+@media (max-width: 750px) {
+  .main a {
+    display: block;
+  }
+  .main span {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+  }
 }
