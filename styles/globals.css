@@ -19,16 +19,20 @@ a {
 }
 
 h1, h2, h3, h4 {
-  color: #47A0CF;
-  margin-top: 0;
+    margin-top: 0;
+}
+
+h2, h3, h4 {
+    color: #664422;
 }
 
 h1 {
-  font-size: 2em;
+    color: #47A0CF;
+    font-size: 2em;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 ul {
