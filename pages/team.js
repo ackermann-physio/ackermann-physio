@@ -67,22 +67,6 @@ export default function About() {
         </div>
       </div>
 
-      <div className={content.wrapper}>
-        <div className={content.img}>
-          <img src="/img/physiotherapie_srolli2019.jpg" />
-          <span className={content.subtitle}>Sarah Rolli</span>
-        </div>
-        <div className={content.text}>
-          <h2>Sarah Rolli</h2>
-          Physiotherapeutin<br />
-          <br />
-          Zusatzqualifikationen:
-          <ul>
-            <li>Manuelle Lymphdrainage und Ödemtherapie (Vodder/ Asdonk)</li>
-          </ul>
-        </div>
-      </div>
-
     </Layout>
   )
 }
