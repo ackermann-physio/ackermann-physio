@@ -13,20 +13,12 @@ export default function About() {
 
       <div className={banner.wrapper}>
         <span className={util.bold}>
-          In der aktuellen Lage in Hessen bleiben alle Einrichtungen des Gesundheitswesens geöffnet. <br />
+          Wir haben geöffnet <br />
         </span>
         <br />
-        Bitte unterstützen Sie unsere Praxis bei den <Link href="/hygiene"><a>notwendigen hygienischen Maßnahmen</a></Link>
-        <br />
-        <span className={util.bold}>
-          und verschieben Sie Ihre Termine, wenn Sie unter Erkältungssymptomen leiden!<br />
-        </span>
-        <br />
-        Falls Sie über 60 Jahre alt sind oder aufgrund von Vorerkrankungen ein erhöhtes Risiko haben, dann wägen Sie die Notwendigkeit einer Behandlung bitte ab oder besprechen Sie mit uns ein geeignetes Vorgehen. <br />
-        <br />
-        Wir freuen uns auf Ihren Besuch!<br />
-        <br />
-        Ihr Team der Physiotherapiepraxis Ackermann
+        Bitte nehmen Sie Ihre Termine wie gewohnt wahr. Wir sind von der Bundes- und Landesregierung angehalten, unsere Leistungen als Bestandteil der medizinischen Grundversorgung auch während der Corona-Krise zu erbringen.<br>
+        Bitte tragen Sie zum Betreten der Praxis und während der Behandlung eine FFP2-Maske. Sollten Sie nicht vollständig geimpft oder genesen sein, ist ein aktueller Test erforderlich.<br>
+        Wir versichern Ihnen, dass wir uns an die Hygienevorgaben des Robert Koch Instituts halten und unsere Mitarbeiter auf diesem Gebiet geschult sind. Unsere Räume werden intensiver als schon im Normalfall gereinigt und gelüftet. Raumluftfilter sind vorhanden und Desinfektionsmittel für den persönlichen Bedarf von Patienten und Therapeutinnen sind verfügbar. Alle Therapeutinnen tragen selbstverständlich eine FFP2-Maske.<br>
       </div>
 
       <div className={[content.wrapper, content.largeImage].join(' ')}>
