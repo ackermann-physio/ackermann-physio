@@ -37,7 +37,8 @@ export default function About() {
           Wir haben geöffnet <br />
         </span>
         <br />
-        Nehmen Sie Ihre Termine gerne wie gewohnt wahr. Bitte tragen Sie zum Betreten der Praxis und während der Behandlung eine FFP2-Maske. <br />
+        Nehmen Sie Ihre Termine gerne wie gewohnt wahr. <br />
+        Bitte tragen Sie zum Betreten der Praxis und während der Behandlung eine FFP2-Maske. <br />
       </div>
 
       <div className={content.wrapper}>
