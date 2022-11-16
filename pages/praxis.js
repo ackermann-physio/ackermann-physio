@@ -14,6 +14,8 @@ export default function About() {
           <img src="/img/physiotherapie_backermann2019-1.jpg" />
         </div>
         <div className={content.text}>
+          Wir sind eine Privatpraxis und freuen uns, Sie begrüßen zu dürfen. <br />
+          <br />
           <h2>So können Sie uns erreichen</h2>
           Ackermann & Team <br />
           Privatpraxis für Osteopathie & Physiotherapie <br />
