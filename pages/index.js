@@ -13,7 +13,7 @@ export default function About() {
 
       <div className={[content.wrapper, content.largeImage].join(' ')}>
         <div className={content.text}>
-          Wir freuen uns über Ihren Besuch und stellen uns gerne bei Ihnen vor. <br />
+          Wir freuen uns über Ihren Besuch in unserer Privatpraxis und stellen uns gerne bei Ihnen vor. <br />
           <br />
           Schauen Sie sich unser Therapieangebot an, betreten Sie unsere Praxisräume und verschaffen Sie sich einen ersten Eindruck über Ihre Therapeutinnen und deren Qualifikationen. <br />
           <br />
