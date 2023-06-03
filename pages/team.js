@@ -12,10 +12,10 @@ export default function About() {
       <div className={content.wrapper}>
         <div className={content.img}>
           <img src="/img/physiotherapie_backermann2019.jpg" />
-          <span className={content.subtitle}>Britta Ackermann</span>
+          <span className={content.subtitle}>Britta Frankenberger</span>
         </div>
         <div className={content.text}>
-          <h2>Britta Ackermann</h2>
+          <h2>Britta Frankenberger</h2>
           Physiotherapeutin, Heilpraktikerin <br />
           <br />
           Zusatzqualifikationen:

@@ -17,7 +17,7 @@ export default function About() {
           <h2>So können Sie uns erreichen</h2>
           Ackermann & Team <br />
           Privatpraxis für Osteopathie & Physiotherapie <br />
-          Inh. Britta Ackermann <br />
+          Inh. Britta Frankenberger <br />
           <br />
           Rheinstraße 20 <br />
           64283 Darmstadt <br />

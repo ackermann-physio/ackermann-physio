@@ -14,7 +14,7 @@ export default function About() {
                Ackermann & Team <br />
                Privatpraxis für Osteopathie & Physiotherapie <br />
              </span>
-             Inh. Britta Ackermann <br />
+             Inh. Britta Frankenberger <br />
              <br />
              Rheinstraße 20 <br />
              64283 Darmstadt <br />
@@ -33,7 +33,7 @@ export default function About() {
            </div>
            <div className={content.img}>
              <img src="/img/physiotherapie_anfahrt.jpg" />
-             <span className={content.subtitle}>Bild: © Britta Ackermann</span>
+             <span className={content.subtitle}>Bild: © Britta Frankenberger</span>
            </div>
         </div>
     </Layout>

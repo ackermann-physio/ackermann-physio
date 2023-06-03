@@ -31,7 +31,7 @@ export default function Button({ children, ...pageProps })  {
               <a>Datenschutzhinweis</a>
             </Link>
             <br />
-            © Britta Ackermann
+            © Britta Frankenberger
             <span className={styles.spacer} />
             Ackermann & Team - Privatpraxis für Osteopathie & Physiotherapie
             <span className={styles.spacer} />
