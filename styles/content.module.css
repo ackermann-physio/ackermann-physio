@@ -35,6 +35,11 @@
   margin-top: 0;
 }
 
+/* No Images */
+.wrapper.noImage {
+  display: block;
+}
+
 /* Large Images */
 .wrapper.largeImage .text {
   flex-basis: 40%;

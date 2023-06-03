@@ -11,7 +11,7 @@ export default function About() {
       <div className={content.wrapper}>
         <div className={content.img}>
           <img src="/img/physiotherapie_geschenk_by_rainer-sturm.jpg" />
-          <span className={content.subtitle}>Bild: © Rainer Sturm / pixelio.de</span>
+          <span className={content.subtitle}><a href="https://www.pixelio.de" target="_blank">Bild: © Rainer Sturm / pixelio.de</a></span>
         </div>
         <div className={content.text}>
           Verschenken Sie doch einfach mal eine entspannende Massage oder Fußreflexzonenmassage an Ihre Lieben, ob zu Weihnachten, Ostern, zum Muttertag, Geburtstag oder einfach nur so.

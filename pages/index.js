@@ -11,27 +11,9 @@ export default function About() {
     <Layout>
       <h1>Ackermann & Team <br /> Privatpraxis für Osteopathie & Physiotherapie</h1>
 
-      <div className={banner.wrapper}>
-        <span className={util.bold}>
-          In der aktuellen Lage in Hessen bleiben alle Einrichtungen des Gesundheitswesens geöffnet. <br />
-        </span>
-        <br />
-        Bitte unterstützen Sie unsere Praxis bei den <Link href="/hygiene"><a>notwendigen hygienischen Maßnahmen</a></Link>
-        <br />
-        <span className={util.bold}>
-          und verschieben Sie Ihre Termine, wenn Sie unter Erkältungssymptomen leiden!<br />
-        </span>
-        <br />
-        Falls Sie über 60 Jahre alt sind oder aufgrund von Vorerkrankungen ein erhöhtes Risiko haben, dann wägen Sie die Notwendigkeit einer Behandlung bitte ab oder besprechen Sie mit uns ein geeignetes Vorgehen. <br />
-        <br />
-        Wir freuen uns auf Ihren Besuch!<br />
-        <br />
-        Ihr Team der Physiotherapiepraxis Ackermann
-      </div>
-
       <div className={[content.wrapper, content.largeImage].join(' ')}>
         <div className={content.text}>
-          Wir freuen uns über Ihren Besuch und stellen uns gerne bei Ihnen vor. <br />
+          Wir freuen uns über Ihren Besuch in unserer Privatpraxis und stellen uns gerne bei Ihnen vor. <br />
           <br />
           Schauen Sie sich unser Therapieangebot an, betreten Sie unsere Praxisräume und verschaffen Sie sich einen ersten Eindruck über Ihre Therapeutinnen und deren Qualifikationen. <br />
           <br />
@@ -48,6 +30,15 @@ export default function About() {
           <img src="/img/physiotherapie_darmstadt_team2_600.jpg" />
           <span className={[content.subtitle, util.center].join(' ')}>Das Praxisteam</span>
         </div>
+      </div>
+
+      <div className={banner.wrapper}>
+        <span className={util.bold}>
+          Wir haben geöffnet <br />
+        </span>
+        <br />
+        Nehmen Sie Ihre Termine gerne wie gewohnt wahr. <br />
+        Bitte tragen Sie zum Betreten der Praxis und während der Behandlung eine FFP2-Maske. <br />
       </div>
 
       <div className={content.wrapper}>

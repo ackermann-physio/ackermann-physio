@@ -10,7 +10,7 @@ export default function About() {
     <Layout>
       <h1>Datenschutzerklärung</h1>
 
-      <div className={[content.wrapper, content.smallImage].join(' ')}>
+      <div className={[content.wrapper, content.noImage].join(' ')}>
         <div className={content.text}>
           <h2>Allgemeiner Hinweis und Pflichtinformationen</h2>
             <h3>Benennung der verantwortlichen Stelle</h3>
@@ -77,14 +77,16 @@ export default function About() {
             <h3>Server-Log-Dateien</h3>
             <p>
               In Server-Log-Dateien erhebt und speichert der Provider der Website automatisch Informationen, die Ihr Browser automatisch an uns übermittelt. Dies sind:
-              <ul>
+            </p>
+            <ul>
                 <li>Browsertyp und Browserversion</li>
                 <li>Verwendetes Betriebssystem</li>
                 <li>Referrer URL</li>
                 <li>Hostname des zugreifenden Rechners</li>
                 <li>Uhrzeit der Serveranfrage</li>
                 <li>IP-Adresse</li>
-              </ul>
+            </ul>
+            <p>
               Es findet keine Zusammenführung dieser Daten mit anderen Datenquellen statt. Grundlage der Datenverarbeitung bildet Art. 6 Abs. 1 lit. b DSGVO, der die Verarbeitung von Daten zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen gestattet.
             </p>
 
