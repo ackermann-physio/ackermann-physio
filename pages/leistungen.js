@@ -20,7 +20,7 @@ export default function About() {
             Die Therapeutin fragt Sie zu Ihren Beschwerden oder Wünschen an die Therapie. Basierend auf der Verordnung des Arztes und Ihren Wünschen und Beschwerden bespricht sie dann gemeinsam mit Ihnen die Therapieziele für die Behandlung.
           </p>
           <p>
-            Bei diesem ersten Gespräch erhalten Sie einen <Link href="/patientenaufklaerungsbogen.pdf"><a>Patientenaufklärungsbogen</a></Link> und die besprochenen Therapieziele und eventuelle Risiken aus Ihrer Vorgeschichte werden festgehalten.
+            Bei diesem ersten Gespräch erhalten Sie einen <Link href="/patientenaufklaerungsbogen.pdf">Patientenaufklärungsbogen</Link> und die besprochenen Therapieziele und eventuelle Risiken aus Ihrer Vorgeschichte werden festgehalten.
           </p>
 
           <h2>Wir arbeiten nach akuellen Erkenntnissen in folgenden Bereichen</h2>
@@ -57,5 +57,5 @@ export default function About() {
       </div>
 
     </Layout>
-  )
+  );
 }

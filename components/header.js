@@ -6,13 +6,13 @@ export default function Header({ children, ...pageProps })  {
   return (
     <div className={styles.main}>
       <Link href="/">
-        <a>
-          <img src="/img/logo.png" />
-        </a>
+
+        <img src="/img/logo.png" />
+
       </Link>
       <span>
         Private Praxis für Krankengymnastik - Massage - Manuelle Therapie - Osteopathie
       </span>
     </div>
-  )
+  );
 }

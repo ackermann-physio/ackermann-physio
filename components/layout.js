@@ -24,11 +24,11 @@ export default function Button({ children, ...pageProps })  {
           </main>
           <footer className={styles.footer}>
             <Link href="/impressum">
-              <a>Impressum</a>
+              Impressum
             </Link>
             <span className={styles.spacer} />
             <Link href="/datenschutz">
-              <a>Datenschutzhinweis</a>
+              Datenschutzhinweis
             </Link>
             <br />
             © Britta Frankenberger
@@ -42,5 +42,5 @@ export default function Button({ children, ...pageProps })  {
         </div>
       </div>
     </div>
-  )
+  );
 }

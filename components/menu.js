@@ -6,26 +6,26 @@ export default function Menu({ children, ...pageProps })  {
   return (
     <nav className={styles.main}>
       <Link href="/praxis">
-        <a>Praxis</a>
+        Praxis
       </Link>
       <Link href="/team">
-        <a>Team</a>
+        Team
       </Link>
       <Link href="/leistungen">
-        <a>Leistungen</a>
+        Leistungen
       </Link>
       <Link href="/konzept">
-        <a>Konzept</a>
+        Konzept
       </Link>
       <Link href="/anfahrt">
-        <a>Anfahrt</a>
+        Anfahrt
       </Link>
-      <Link href="/aktuelles">
-        <a className={styles.spaceBefore}>Aktuelles</a>
+      <Link href="/aktuelles" className={styles.spaceBefore}>
+        Aktuelles
       </Link>
       <Link href="/">
-        <a>Startseite</a>
+        Startseite
       </Link>
     </nav>
-  )
+  );
 }
