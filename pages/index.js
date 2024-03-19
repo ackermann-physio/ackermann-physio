@@ -34,12 +34,27 @@ export default function About() {
 
       <div className={banner.wrapper}>
         <span className={util.bold}>
-          Wir haben geöffnet <br />
+           Partner/in für Physiotherapiepraxis gesucht <br />
         </span>
         <br />
-        Nehmen Sie Ihre Termine gerne wie gewohnt wahr. <br />
-        Bitte tragen Sie zum Betreten der Praxis und während der Behandlung eine FFP2-Maske. <br />
-      </div>
+        <div className={[content.wrapper, content.largeImage].join(' ')}>
+            <div className={content.text}>
+                Zur Erweiterung unserer, in der Darmstädter Innenstadt liegenden, Physiotherapiepraxis suchen wir eine/n 3. Partner/in. <br />
+                Wir ermöglichen einen unkomplizierten Einstieg in eine langjährig bestehende Praxis und bieten eine respektvolle partnerschaftliche Zusammenarbeit. <br />
+                Auch Berufseinsteiger und Interessenten, die in die Selbstständigkeit starten wollen, dürfen sich angesprochen fühlen. Die Konditionen besprechen wir dann gerne in einem persönlichen Gespräch. <br />
+		        <br />
+                <p>
+                   <Link href="/plakat-praxisverkauf.pdf">Vollständige Infos zum Download</Link>
+                </p>
+
+
+            </div>
+            <div className={content.img}>
+                <img src="/img/physiotherapie_darmstadt_b-a.jpg" />
+                <span className={[content.subtitle, util.center].join(' ')}>Angela Hett und Britta Frankenberger</span>
+            </div>
+        </div>
+	  </div>
 
       <div className={content.wrapper}>
         <div className={content.text}>
