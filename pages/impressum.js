@@ -44,7 +44,7 @@ export default function About() {
             Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: 63 770 582 417 <br />
             Die Berufsbezeichnung lautet Heilpraktikerin ohne Approbation (Deutschland). Verliehen durch den Kreisausschuss des Kreises Groß Gerau, Wilhelm-Slipp-Straße 4, 64521 Groß-Gerau, Deutschland <br />
             Die berufsrechtliche Regelung bildet §1 des Heilpraktikergesetzes vom 17.02.1939 und §3 der 1. Durchführungsverordnung zum HP Gesetz vom 18.02.1939, in der derzeit gültigen Fassung <br />
-            Inhaltlich Verantwortlicher gemäß § 10 Absatz 3 MDStV: Britta Frankenberger <br />
+            Inhaltlich Verantwortlich: Britta Frankenberger <br />
             Aufsichtsbehörde: Gesundheitsamt Darmstadt, Niersteiner Straße 3, 64295 Darmstadt
           </p>
           <br />
