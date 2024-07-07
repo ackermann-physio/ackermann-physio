@@ -12,7 +12,7 @@ export default function About() {
 
       <div className={[content.wrapper, content.smallImage].join(' ')}>
         <div className={content.text}>
-          <h2>Anbieter dieses Internetauftritts im Sinne des Telemediengesetzes ist:</h2>
+          <h2>Anbieter dieses Internetauftritts im Sinne ist:</h2>
           <span className={util.bold}>
             Ackermann & Team <br />
             Privatpraxis für Osteopathie & Physiotherapie <br />
@@ -29,7 +29,7 @@ export default function About() {
           <br />
           <br />
 
-          <h2>Inhaltlich verantwortlich gemäß § 6 MDStV:</h2>
+          <h2>Inhaltlich verantwortlich:</h2>
           <span className={util.bold}>
             Britta Frankenberger (Heilpraktikerin, Physiotherapeutin) <br />
           </span>
